@@ -1,4 +1,6 @@
 <?php
 $this->title = $title;
 ?>
-<b>Hello world! this is Developer</b>
+<!--
+<h2>Hello world! this is Developer</h2>
+-->

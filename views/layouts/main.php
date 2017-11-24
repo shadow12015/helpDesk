@@ -4,6 +4,8 @@ use app\assets\AppAsset;
 
 /* @var $this yii\web\View */
 /* @var $content string */
+
+AppAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -15,11 +17,14 @@ use app\assets\AppAsset;
     <title><?= HTML::encode($this->title) ?> </title>
     <?php $this->head() ?>
 </head>
-<body>
+<body class="col-md-2">
 <?php $this->beginBody() ?>
-<header>Начало тестового шаблона</header>
-<?= $content ?>
-<footer>Конец тестового шаблона</footer>
+
+<main class="contentSystem">
+    <?= $content ?>
+
+</main>
+
 <?php $this->endBody() ?>
 </body>
 </html>
