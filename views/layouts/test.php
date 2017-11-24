@@ -18,7 +18,7 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="tests">
+<div class="addrepo">
     <?= $content ?>
 </div>
 
