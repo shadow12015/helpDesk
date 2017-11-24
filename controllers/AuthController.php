@@ -8,7 +8,7 @@ use yii\web\Controller;
 
 class AuthController extends Controller 
 {
-	public $layout = 'test';
+	public $layout = 'main';
 	
 	public function actionIndex()
 	{
