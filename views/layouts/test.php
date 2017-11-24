@@ -18,9 +18,9 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-    <div class="test">
-        <?= $content ?>
-    </div>
+<div class="tests">
+    <?= $content ?>
+</div>
 
 <footer class="end">
 
