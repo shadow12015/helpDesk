@@ -12,7 +12,7 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <title></title>
+    <title>тест</title>
     <?php $this->head() ?>
 </head>
 <body>
