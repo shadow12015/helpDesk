@@ -1,31 +1,24 @@
 <?php
+use yii\helpers\html;
 
-/* @var $this \yii\web\View */
+/* @var $this yii\web\View */
 /* @var $content string */
-
-use yii\helpers\Html;
-use app\assets\AppAsset;
-
-AppAsset::register($this);
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
 <head>
-    <title>тест</title>
+    <meta charset="utf-8" />
+    <?=Html::csrfMetaTags() ?>
+    <title><?= HTML::encode($this->title) ?> </title>
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
-
-<div class="addrepo">
-    <?= $content ?>
-</div>
-
-<footer class="end">
-
-</footer>
-
+<header>Начало тестового шаблона</header>
+<?= $content ?>
+<footer>Конец тестового шаблона</footer>
 <?php $this->endBody() ?>
 </body>
 </html>
