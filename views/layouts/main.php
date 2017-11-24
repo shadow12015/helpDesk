@@ -17,15 +17,17 @@ AppAsset::register($this);
     <title><?= HTML::encode($this->title) ?> </title>
     <?php $this->head() ?>
 </head>
-<body class="col-md-2">
+<body>
 <?php $this->beginBody() ?>
-
-<main class="contentSystem">
-    <?= $content ?>
-
-</main>
-
+    <div class="container-fluid">
+        <div class="row">
+            <main class="contentSystem">
+                <?= $content ?>
+            </main>
+        </div>
+    </div>
 <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
+
