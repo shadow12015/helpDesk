@@ -1,23 +1,30 @@
-.container-fluid
+.logo
 {
-    height: 1047px;
-    max-height: 1047px;
-    width: auto;
-    background-image: url("../image/fontAuth.jpg");
-    background-size: cover;
+    display: inline-block;
+    position: relative;
+    margin-top: 8px;
+    float: left;
 }
 
-/*
-.headerSystem
+header
 {
-    background-image: url("../image/fontAuth.jpg");
-    border: solid 2px black;
-    height: 100px;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c1c1c+36,5b5b5b+100&0.79+0,0.51+100 */
+    background: -moz-linear-gradient(45deg,  rgba(28,28,28,0.79) 0%, rgba(28,28,28,0.69) 36%, rgba(91,91,91,0.51) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(28,28,28,0.79) 0%,rgba(28,28,28,0.69) 36%,rgba(91,91,91,0.51) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(28,28,28,0.79) 0%,rgba(28,28,28,0.69) 36%,rgba(91,91,91,0.51) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c91c1c1c', endColorstr='#825b5b5b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
 }
 
-.contentSystem
+.links
 {
-    min-height: 400px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-left: 7px;
 }
-
-*/

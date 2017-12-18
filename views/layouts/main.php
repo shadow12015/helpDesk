@@ -19,12 +19,17 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
+<header>
     <div class="row">
-        <div class="contentSystem col-sm-8 flex-items-sm-center">
-            <?= $content ?>
+        <div class="logo">
+            <img src="../image/logo.png" title="Аникс ТД">
+        </div>
+        <div class="links">
+            <p>Ссылка 1</p>
         </div>
     </div>
+</header>
+            <?= $content ?>
 
 <?php $this->endBody() ?>
 </body>

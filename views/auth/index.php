@@ -1,7 +1,9 @@
 <?php
 $this->title = $title;
+$this->registerCssFile('css/auth.css');
 ?>
-<h2>Hello world! this is master</h2>
-<!--
 
--->
+<div class="content">
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <h2>Заголовок главной страницы</h2>
+</div>
