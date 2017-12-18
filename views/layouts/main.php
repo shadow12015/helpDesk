@@ -19,13 +19,13 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-    <div class="container-fluid">
-        <div class="row">
-            <main class="contentSystem">
-                <?= $content ?>
-            </main>
+
+    <div class="row">
+        <div class="contentSystem col-sm-8 flex-items-sm-center">
+            <?= $content ?>
         </div>
     </div>
+
 <?php $this->endBody() ?>
 </body>
 </html>
